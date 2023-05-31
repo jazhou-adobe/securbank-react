@@ -12,7 +12,7 @@ function Articles() {
     
 
     async function fetchCF() {
-        let url = aempublishurl + aemurl
+        let url = aemauthorurl + aemurl
         console.log(window.location.ancestorOrigins.length)
         if(window.location && window.location.ancestorOrigins.length > 0) {
             url = aemauthorurl + aemurl
