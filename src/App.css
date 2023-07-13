@@ -265,3 +265,11 @@ header {
 .bell {
   margin-right: 16px;
 }
+
+.newsletter {
+  background-color: #DBFF00;
+  color: #141414;
+  .content {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
