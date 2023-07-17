@@ -9,7 +9,7 @@ import Transactions from './components/transactions';
 import Expenses from './components/expenses';
 import CreditCardDetails from './components/creditcarddetails';
 import Footer from './components/footer';
-import Text from './components/text';
+// import Text from './components/text';
 
 function App() {
   return (
@@ -31,8 +31,7 @@ function App() {
             </div>
             <div>
               <img src={bell} className="bell" alt="bell" />
-              <img src={avatar} className="avatar" alt="avatar" />
-              <div className='authFriendly'>Mark Szulc</div>
+              <div className='authFriendly'>John Smith</div>
             </div>
           </div>
       </div>
@@ -52,10 +51,7 @@ function App() {
           <div>
             <Articles />
           </div>
-          <div className="newsletter">
-            <Text itemID="urn:aemconnection:/content/wknd/us/en/newsletter/jcr:content/root/container/text" itemProp="text" itemType="richtext" />     
-            <button>Subscribe</button>  
-          </div>
+
         </div>
       </main>
 
