@@ -12,9 +12,9 @@ const fetchData = async (path) => {
 const Text = (props) => {
   const {itemID, itemProp = "text", itemType, className, data: initialData, isComponent = false} = props;
   const editorProps = {
-    itemID,
-    itemProp,
-    itemType,
+    "data-aue-resource":itemID,
+    "data-aue-prop":itemProp,
+    "data-aue-type":itemType,
     "data-editor-behavior": isComponent
   };
 
